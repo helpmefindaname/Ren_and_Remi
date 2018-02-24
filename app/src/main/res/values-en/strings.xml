@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // GAMETITLE and welcome-text
+    <string name="app_name">Ren &amp; Remi</string>
+    <string name="welcome_title">Welcome to\nRen &amp; Remi!</string>
+
+    // MENUE BUTTONS --------------------------------------
+    <string name="highscore">Highscore</string>
+    <string name="options">Options</string>
+    <string name="guide">Introduction</string>
+    <string name="play_game">Play</string>
+    <string name="quit_game">Quit</string>
+
+
+    // HIGHSCORE - activity -------------------------------
+    <string name="first">Player x</string>
+    //TODO highscore-list
+
+    // OPTIONS - activity ---------------------------------
+    <string name="modus_name">Music</string>
+
+    // GUIDE - activity ------------------------------------
+    <string name="control_name">Controller</string>
+    // about_this_game=app_name
+    <string name="weapons">Weapons</string>
+    <string name="game_specials">Specials</string>
+
+    // CONTROL_GUIDE -activity
+    <string name="choose_weapon_text">Chose a weapon:</string>
+    <string name="arrows_text">Weapon: steer left/right</string>
+    <string name="plus_minus_text">Increase/Decrease strength of shot:</string>
+    <string name="moving_text">Move roboter left/right.</string>
+    <string name="shoot_text">Click to shoot:</string>
+    <string name="hearts_text">The red hearts show the lives.</string>
+
+    // GAME_GUIDE - activity
+    <string name="about_ren_and_remi_text">Ren and Remi are aliens. They are close friends.
+        In their freetime they like to challenge each other. Therefore they use their alien-robots,
+        each one controlled by a controller. Great alien-technology. The player sees the gameplay
+        in Ren\'s perspective and tries to beat Remi.</string>
+
+    // WEAPON_GUIDE - activity
+    <string name="weapon_guide_text">There are two different weapons:\n
+        \"SingleBlaster\" and \"TripleDasher\".\nSingleBlaster is a simple gun,
+        but shooting with the TripleDasher can be risky. This weapon looses three bullets at
+        once. The chosen weapon\'s background changes orange.</string>
+
+    // SPECIALS_GUIDE - activity
+    <string name="game_specials_text">To create the game a litte more interesting, reflectors can
+        appear randomly. Reflectors redirect the shoot and will be there for quite some time.
+        If a bullet was redirected four times, reflectors won\'t influence the bullet direction
+        anymore - it goes through the reflector.</string>
+
+
+    // LVL SELECTION - activity ---------------------------
+    <string name="lvl_selection_title">Choose a Level:</string>
+    <string name="lvl_1">Level 1</string>
+    <string name="lvl_2">Level 2</string>
+
+    //-----------------------------------------------------
+    // BACK-BUTTON
+    <string name="back">Back</string>
+    // START GAME BUTTON
+    <string name="start_game_name">Start game</string>
+    // NEXT-BUTTON
+    <string name="next_name">Next</string>
+    // SKIP-BUTTON
+    <string name="skip_name">Skip</string>
+    //-----------------------------------------------------
+
+    // VICTORY
+    <string name="contrats_text">Congratulation!</string>
+    <string name="win_text">You won!</string>
+    // DEFEAT
+    <string name="lost_text">You lost!</string>
+
+    // NEW GAME - activity --------------------------------
+    <string name="new_game_name">New game?</string>
+    <string name="menu_name">Menu</string>
+
+    // NEW HIGHSCORE - activity ---------------------------
+    <string name="new_highscore_name">New Highscore!</string>
+    <string name="enter_name">Enter your name</string>
+
+    // PAUSE - activity -----------------------------------
+    <string name="pause">Pause</string>
+    <string name="quit_text">Quit</string>
+    <string name="continue_text">continue</string>
+
+
+    // image - content description
+    <string name="winner_alien">Alien has won</string>
+    <string name="defeated_alien">Alien has lost</string>
+
+
+    // button names - controller
+    <string name="shoot">Shoot</string>
+    <string name="spiel_pausieren">pause</string>
+    <string name="musik">Music</string>
+    <string name="dmg_up">dmg_up</string>
+    <string name="dmg_down">dmg_down</string>
+    <string name="move_left">move_left</string>
+    <string name="move_right">move_right</string>
+    <string name="hp">hp1</string>
+    <string name="avatar">avatar</string>
+    <string name="weiter">Next</string>
+    <string name="heart_name">heart_img</string>
+    <string name="left_up_button_name">left_up_button</string>
+    <string name="right_up_button_name">right_up_button</string>
+    <string name="left_button_name">left_button</string>
+    <string name="right_button_name">right_button</string>
+    <string name="blue_plus_name">blue_plus</string>
+    <string name="yellow_minus_name">yellow_minus</string>
+    <string name="alien_hand">alien_head</string>
+    <string name="alien_body">alien_hand</string>
+    <string name="german">german</string>
+    <string name="english">english</string>
+
+
+</resources>

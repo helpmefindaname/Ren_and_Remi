@@ -1,0 +1,24 @@
+# .gitignore for AndroidStudio Projects (V1.1)
+# (tested AndroidStudio 2.3.3)
+#
+# Save this as `.gitignore` in the root directory of your repository or project.
+# ------------------------------------------------------------------------------
+
+# if you want to upload the .apk as well, add the additional .gitignore in "app" directory,
+# otherwise uncomment this:
+# /app/build
+
+# android studio project files
+*.iml
+.gradle
+/local.properties
+/.idea/
+
+# mac stuff
+.DS_Store
+
+# ignore the build (binaries)
+/build
+/captures
+.externalNativeBuild
+

@@ -1,0 +1,121 @@
+<resources>
+    // GAMETITLE and welcome-text
+    <string name="app_name">Ren &amp; Remi</string>
+    <string name="welcome_title">Willkommen zu\nRen &amp; Remi!</string>
+
+    // MENUE BUTTONS --------------------------------------
+    <string name="highscore">Highscore</string>
+    <string name="options">Einstellungen</string>
+    <string name="guide">Anleitung</string>
+    <string name="play_game">Spielen</string>
+    <string name="quit_game">Beenden</string>
+
+
+    // HIGHSCORE - activity -------------------------------
+    <string name="first">Spieler </string>
+
+    // OPTIONS - activity ---------------------------------
+    <string name="modus_name">Musik</string>
+
+    // GUIDE - activity ------------------------------------
+    <string name="control_name">Steuerung</string>
+    // about_this_game=app_name
+    <string name="weapons">Waffen</string>
+    <string name="game_specials">Specials</string>
+
+    // CONTROL_GUIDE -activity
+    <string name="choose_weapon_text">Waffe wählen:</string>
+    <string name="arrows_text">Waffe nach links/rechts lenken:</string>
+    <string name="plus_minus_text">Stärke des Schusses erhöhen/minimieren:</string>
+    <string name="moving_text">Roboter nach links/rechts bewegen.</string>
+    <string name="shoot_text">Klicken um zu schießen:</string>
+    <string name="hearts_text">Die roten Herzen zeigen die Leben an.</string>
+
+
+    // GAME_GUIDE - activity
+    <string name="about_ren_and_remi_text">Ren und Remi sind Aliens, aber vor allem sind
+    sie dicke Freunde. In ihrer Freizeit spielen die beiden gerne gegeneinander.
+    Dazu benutzen sie ihre Alien-Roboter, die sie mit einem Controller steuern.
+    Alien-Technologie vom feinsten.
+    Der Spieler wird in die Rolle von Ren versetzt und versucht Remi zu besiegen.</string>
+
+    // WEAPON_GUIDE - activity
+    <string name="weapon_guide_text">Es gibt zwei verschiedene Waffen:\n
+        \"SingleBlaster\" und \"TripleDasher\".\nSingleBlaster ist eine einfache Schusswaffe,
+        aber das Schießen mit dem TripleDasher kann schon mal riskant werden. Diese feuert
+        gleichzeitig drei Kugeln ab. Die ausgewählte Waffe ist am orangenen Hintergrund des
+        Waffenbuttons zu erkennen.</string>
+
+    // SPECIALS_GUIDE - activity
+    <string name="game_specials_text">Um das Spielen interessanter zu gestalten, können
+     zufällig Reflektoren erscheinen. Reflektoren leiten einen Schuss um und sie verschwiden
+        nicht so schnell. Wurde ein Schussball schon vier mal umgeleitet, so haben
+    Refelektoren keine Wirkung für diesen Schuss - er geht durch sie hindurch.</string>
+
+
+    // LVL SELECTION - activity ---------------------------
+    <string name="lvl_selection_title">Wähle ein Level:</string>
+    <string name="lvl_1">Level 1</string>
+    <string name="lvl_2">Level 2</string>
+
+    //-----------------------------------------------------
+    // BACK-BUTTON
+    <string name="back">Zurück</string>
+    // START GAME BUTTON
+    <string name="start_game_name">Spiel starten</string>
+    // NEXT-BUTTON
+    <string name="next_name">Weiter</string>
+    // SKIP-BUTTON
+    <string name="skip_name">Überspringen</string>
+    //-----------------------------------------------------
+
+    // VICTORY
+    <string name="contrats_text">Glückwunsch!</string>
+    <string name="win_text">Du hast gewonnen!</string>
+    // DEFEAT
+    <string name="lost_text">Du hast verloren!</string>
+
+    // NEW GAME - activity --------------------------------
+    <string name="new_game_name">Neues Spiel?</string>
+    <string name="menu_name">Menü</string>
+
+    // NEW HIGHSCORE - activity ---------------------------
+    <string name="new_highscore_name">Neuer Highscore!</string>
+    <string name="enter_name">Trage deinen Namen hier ein</string>
+
+    // PAUSE - activity -----------------------------------
+    <string name="pause">Pause</string>
+    <string name="quit_text">Spiel beenden</string>
+    <string name="continue_text">weiter spielen</string>
+
+
+    // image - content description
+    <string name="winner_alien">Alien hat gewonnen</string>
+    <string name="defeated_alien">Alien hat verloren</string>
+
+
+    // button names - controller
+    <string name="shoot">Schießen</string>
+    <string name="spiel_pausieren">Spiel Pausieren</string>
+    <string name="musik">Musik</string>
+    <string name="dmg_up">dmg_up</string>
+    <string name="dmg_down">dmg_down</string>
+    <string name="move_left">move_left</string>
+    <string name="move_right">move_right</string>
+    <string name="hp">hp1</string>
+    <string name="avatar">avatar</string>
+    <string name="weiter">Weiter</string>
+    <string name="heart_name">heart_img</string>
+    <string name="left_up_button_name">left_up_button</string>
+    <string name="right_up_button_name">right_up_button</string>
+    <string name="left_button_name">left_button</string>
+    <string name="right_button_name">right_button</string>
+    <string name="blue_plus_name">blue_plus</string>
+    <string name="yellow_minus_name">yellow_minus</string>
+    <string name="alien_hand">alien_head</string>
+    <string name="alien_body">alien_hand</string>
+    <string name="german">Deutsch</string>
+    <string name="english">Englisch</string>
+
+
+</resources>

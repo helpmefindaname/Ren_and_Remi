@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="at.ac.tuwien.ims.sf5">
+
+    <!-- Every activity is oriented "landscape". -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name=".sqlite.ScoreProvider"
+            android:authorities="at.ac.tuwien.ims.sf5.sqlite"
+            android:exported="false" />
+
+        <activity
+            android:name=".Gameactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.MenuActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.ChooseLvlActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.DefeatActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.NewGameActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.GuideActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.ControlGuideActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.GameGuideActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.WeaponGuideActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.SpecialsGuideActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.PauseActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.OptionsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.NewHighscoreActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.HighscoreActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.WinActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.VideoActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SplashScreenWelcomeActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".activity.WinSplashScreenActivity"
+            android:screenOrientation="landscape">
+        </activity>
+    </application>
+</manifest>
