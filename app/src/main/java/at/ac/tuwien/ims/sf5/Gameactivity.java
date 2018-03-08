@@ -256,7 +256,7 @@ public class Gameactivity extends Activity {
     }
 
     public boolean isPlayer2Ai() {
-        return player2Ai;
+        return false;
     }
 
     public boolean isSpawnReflector() {
